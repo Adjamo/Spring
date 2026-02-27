@@ -13,7 +13,7 @@ init()
 
 WIDTH = 80
 HEIGHT = 20
-TICK_SLEEP = 0.06  # lower = faster
+TICK_SLEEP = 0.16  # lower = faster
 
 # Plant chars (yours)
 GRASS_SHORT = "."
