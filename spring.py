@@ -401,7 +401,7 @@ def tick(grid, season, wind_band_x, bees, worms, rain_timer):
             # --- winter stress ---
             if season == "Winter":
                 # small passive decay
-                if random.random() < 0.5:
+                if random.random() < 0.4:
                     c.health -= 1
 
                 # extra stress for flowering plants
